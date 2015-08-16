@@ -36,14 +36,11 @@ gulp.task('deploy', function() {
 
 
 // FUNCTIONS // ---------------------------------------------------------
-// Initial start function
-gulp.task('start', function() {
-  gulp.start('js', 'css');
-});
-
 // Watch function
-gulp.task('watch', ['start'], function() {
-  gulp.watch('dev/sass/**/*.scss', ['css']);
+gulp.task('watch', function() {
+  gulp.start('js', 'css');
+
+  gulp.watch('dev/less/**/*.less', ['css']);
   gulp.watch('dev/js/**/*.js', ['js']);
  
   livereload.listen();
