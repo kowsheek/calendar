@@ -50,6 +50,10 @@
         &:hover, &:focus, &.dr-active {
           color: $blue;
         }
+        &:empty:after {
+          content: attr(placeholder);
+          color: $rat;
+        }
       }
       .dr-dates-dash {
         color: $mouse;
