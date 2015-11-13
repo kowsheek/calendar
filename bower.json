@@ -1,9 +1,10 @@
 {
   "name": "BaremetricsCalendar",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "homepage": "https://github.com/Baremetrics/calendar",
   "authors": [
-    "Tyler van der Hoeven <hi@tyvdh.com>"
+    "Tyler van der Hoeven <hi@tyvdh.com>",
+    "Kowsheek Mahmood <kowsheek@gmail.com>"
   ],
   "description": "The Baremetrics date range picker is a simplified solution for selecting both date ranges and single dates all from a single calender view. There aren't a billion options but the code is pretty basic and modular so feel free to edit however to meet your own needs.",
   "main": [
@@ -12,8 +13,7 @@
   ],
   "dependencies": {
     "moment": "2.10.3",
-    "jquery": "2.1.4",
-    "semantic": "semantic-ui#~2.1.6"
+    "jquery": "2.1.4"
   },
   "moduleType": [
     "globals"
@@ -28,7 +28,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/Baremetrics/calendar.git"
+    "url": "git://github.com/kowsheek/calendar.git"
   },
   "license": "MIT",
   "ignore": [
