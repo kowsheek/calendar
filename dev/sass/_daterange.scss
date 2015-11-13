@@ -21,16 +21,12 @@
     border-radius: $radius;
     background-color: $white;
     position: relative;
-    z-index: 5;
     overflow: hidden;
 
     &:hover {
       border-color: $blue;
     }
-    &.dr-active {
-      box-shadow: 0 0 0 3px rgba($bluemoon, 0.8);
-      border-color: $blue;
-    }
+    
     .dr-dates {
       display: flex;
       align-items: center;
@@ -62,7 +58,7 @@
     }
     .dr-presets {
       width: rem(35);
-      border-left: 1px solid $mouse;
+      border-right: 1px solid $mouse;
       flex-shrink: 0;
       cursor: pointer;
       display: flex;

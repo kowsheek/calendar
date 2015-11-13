@@ -691,17 +691,18 @@
 
     if (type == "double")
       return this.element.append('<div class="dr-input">' +
-        '<div class="dr-dates">' +
-          '<div class="dr-date dr-date-start" contenteditable>'+ moment(this.start_date).format(this.format.input) +'</div>' +
-          '<span class="dr-dates-dash">&ndash;</span>' +
-          '<div class="dr-date dr-date-end" contenteditable>'+ moment(this.end_date).format(this.format.input) +'</div>' +
-        '</div>' +
-
         '<div class="dr-presets">' +
           '<span class="dr-preset-bar"></span>' +
           '<span class="dr-preset-bar"></span>' +
           '<span class="dr-preset-bar"></span>' +
         '</div>' +
+      
+        '<div class="dr-dates">' +
+          '<div class="dr-date dr-date-start" contenteditable>'+ moment(this.start_date).format(this.format.input) +'</div>' +
+          '<span class="dr-dates-dash">&ndash;</span>' +
+          '<div class="dr-date dr-date-end" contenteditable>'+ moment(this.end_date).format(this.format.input) +'</div>' +
+        '</div>' +
+        
       '</div>' +
 
       '<div class="dr-selections">' +

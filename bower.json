@@ -7,12 +7,13 @@
   ],
   "description": "The Baremetrics date range picker is a simplified solution for selecting both date ranges and single dates all from a single calender view. There aren't a billion options but the code is pretty basic and modular so feel free to edit however to meet your own needs.",
   "main": [
-    "dev/js/Calendar.js",
-    "dev/sass/application.scss"
+    "public/js/Calendar.js",
+    "public/css/calendar.scss"
   ],
   "dependencies": {
     "moment": "2.10.3",
-    "jquery": "2.1.4"
+    "jquery": "2.1.4",
+    "semantic": "semantic-ui#~2.1.6"
   },
   "moduleType": [
     "globals"
